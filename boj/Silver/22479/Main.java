@@ -1,4 +1,5 @@
-
+// dfs 기본 문제
+// 94660KB, 908ms
 import java.io.*;
 import java.util.*;
 
@@ -6,8 +7,8 @@ public class Main {
 
 	static int N, M, R;
 	static int cnt = 0;
-	static boolean[] visited;
-	static int[] result;
+	static boolean[] visited; // 방문 체크 배열
+	static int[] result; // 방문 순서를 저장하기 위한 결과값 배열
 	static ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
 	static StringBuilder sb = new StringBuilder();
 
